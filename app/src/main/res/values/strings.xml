@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iFocus Mission</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="events_update">The moment conversation started, Prasad gaaru emphasized on the value and purpose of life. “Do not follow things blindly,  just stop, think and move forward”- great line quoted by Prasad gaaru.  He personally believes that association with a mission like iFOCUS is very crucial in our life because it shows the right path at the right moment heading to the right destination.</string>
+
+
+    <string name="event_updates2">With the prevailing crowd in front of Raogaru, he started off explaining how India had been through, since 1975. He elucidated us speaking about the changes in Indian politics, the military discipline and dedication towards country. “Nation develops not by communism, capitalism, socialism but only by NATIONALISM”- inspiring words by Raogaaru.</string>
+
+
+    <!--gcm class-->
+    <string name="key_app_version_number">app_version_number</string>
+    <string name="project_id">868676881324</string>
+    <string name="device_not_supported">Device not supported</string>
+    <string name="key_registration_id">registration_id</string>
+    
+    
+     <string name="enq_qery">All Queries will be Addressed in 24 hours\n
+         Contact: 8008644333</string>
+    
+    <string name="about"><b><c>About IFocus</c></b></string>
+    <string name="pledge"><b>Pledge Declaration</b></string>
+    <string name="structure"><b>Our Structure</b></string>
+    <string name="sanjiwani"><b>Sanjiwani Club</b></string>
+    <string name="faqss"> <b>FAQs</b></string>
+    <string name="contact"><b>Contact</b></string>
+    <string name="enquiry"><b>Send Enquiry</b></string>
+    
+    
+      <string name="contact_info"><font size="24"><b>I Focus Mission</b></font>\n\n
+          2-2-186/18/6,\n
+          RK Nagar,\n
+          Bagh Amberpet,\n
+          Hyderabad,\n
+          Pho:8008644333, 8008744333,\n
+          040 27424333\n
+          E-Mail: info@ifocusmission.org\n
+          www.ifocusmission.org\n
+          
+          
+          </string>
+          
+      
+      
+      
+      
+       <string name="abt_ifocus">  <b><p>About iFocus:</p></b>\n\n
+<p>An endeavour to create a platform for Passionate Careers &amp; Positive Lifestyles  has been progressing steadily since the last ten years and impacting the society in a constructive manner.</p>\n\n
+<p>I Focus Mission was established by ardent followers of Sadguru Sivananda Murthy garu to take forward the ideology of Samardhata, Samagratha and Bhaarateeyata, by bringing people together for building passionate careers and positive lifestyles for oneself and to ultimately contribute towards nation building.</p>\n\n
+<p>Thousands of mission members form part of this physical network to coordinate in an atmosphere of mutual learning , serving and observing to explore oneself and fulfil objectives.</p>\n\n
+
+<b>Our Mission </b>\n\n
+<p><b>i Focus Mission </b> is driven by contemporary professionals and led by eminent scholars, it focuses on bringing out the inherent positive qualities and promotes the culture of enriching one’s wisdom.
+The mission endeavours to create a platform of effective living for the individuals of all ages, at all stages. Initiatives are underway to create professional, social and cultural consciousness. Established with the core objective of enhancing learning and practicing leadership, the mission intends to help people seamlessly manage today’s world of complexities, conflicts and contradictions</p>\n\n.
+           
+       </string>
+      
+      
+      
+      
+      
+          
+       <string name="mission_vission">
+                 <font size="18"><b> Welcome</b>\n\n</font>
+                   <font size="18"><b>  To </b>\n\n </font>
+                  <font size="18"><b>  I-Focus Mission </b>\n\n </font>
+      <font size="18"> <b> The world of fundamental leadership.</b>\n\n  </font>
+                 <b>         I-Focus…!    </b> \n\n
+                 
+                <p>  A mission that brought a lively change in thousands of positive lives…</p>\n\n
+              <p>    A mission that blossomed thousands of passionate careers…</p>\n\n
+<p>A civilian army of committed people who are career focused yet social conscious….</p>\n\n
+<p>A platform where youngsters sharpen aptitudes and premiers   Fine-tune their attitudes...</p>\n\n
+<p>A forum where professionals learn Mantras of Management</p>\n\n
+<p>And entrepreneurs practice Tantras of achievements...</p>\n\n
+<p>A stage where our little- guns ignites latent Talents and seniors mentor their juniors…</p>\n\n
+<p>All in all a positive sensation</p>\n\n
+<p> That is all about a synergistic spectrum of bountiful</p>\n\n
+<p>Passionate Careers ~ Positive Life Styles.</p>\n\n\n
+<p>Head quartered @ Hyderabad, I-Focus Mission functions on the trivet of 
+‘Samardhatha’- competency |’Samagratha’ - Integrity | ‘Bharatheeyatha’ - Indianity.</p>\n\n
+<p>Here, our spirited objective is to initiate a young patriotic world of bright careers and happy life-</p>\n\n
+                  </string>
+    
+    
+       
+       <string name="mission"><font size="20"><p> <b> Mission: </b></p></font>\n\n<p><b>i Focus Mission </b> is driven by contemporary professionals and led by eminent scholars, it focuses on bringing out the inherent positive qualities and promotes the culture of enriching one’s wisdom.</p>
+<p>The mission endeavours to create a platform of effective living for the individuals of all ages, at all stages. Initiatives are underway to create professional, social and cultural consciousness. Established with the core objective of enhancing learning and practicing leadership, the mission intends to help people seamlessly manage today’s world of complexities, conflicts and contradictions</p>
+</string>
+       
+
+       <string name="home_txt"><p>iFocus 11 Days Fundamental</p>\n
+           <p>Leadership batch starts every thursday </p>\n
+           <p>at 6:30pm - 8:30pm.</p>
+            </string>
+            
+       
+       <string name="stru_staic"><p>Senior most IAS,IPS Officers Eminent Scholars,</p>
+           
+       <p>Serial Entrepreneurs,CXOs,Politicians,among others</p>\n <p>are part of Guiding Council.</p>
+       </string>
+       
+        <string name="faq"> <p> 1. What is I-Focus Mission?</p>\n\n
+  <p>  I-Focus Mission is a Voluntary Organization. It is a unique platform for the youth
+to develop Passionate Careers and Positive Lifestyles for themselves. </p>\n\n
+
+<p>2. How can I become a member of  your mission?</p>\n\n
+  <p>  For becoming a member of this organization you will have to participate in
+interactive sessions for 11 days. After the 11 days of workshop, if you believe that
+I-Focus can help you improve your professional and personal lifestyle you can
+continue as a member.</p>\n\n
+
+<p>3. What are the age limits and minimum qualifications required to join I-Focus
+workshops?</p>\n\n
+  <p>  Anyone below the age of 50 can participate in these workshops and no educational
+qualifications are required.</p>\n\n
+
+<p>4. What are the goals of I-Focus mission?</p>\n\n
+  <p>  The main goal of I-Focus mission is to help people realize their goals and then to
+achieve these goals.</p>\n\n
+
+<p>5.Who is in charge of your organization?</p>\n\n
+ <p>   I-Focus mission has many volunteers and these volunteers look after all the aspects
+of the organization like administration, accounts, activities, etc. I-Focus is the only
+organization without a single employee.</p>\n\n
+
+<p> 6. Is this a charity or a training organization?</p>\n\n
+   <p> We are neither a charity nor a training organization. I-Focus directs today’s youth
+towards building passionate careers and positive lifestyles for themselves.</p>\n\n
+
+<p> 7. Where does I-Focus mission acquire its finances from?</p>\n\n
+  <p>  I-Focus mission runs its programs through voluntary contributions made by its
+members.</p>\n\n
+
+<p> 8. Are there any political affiliations to the organization?</p>\n\n
+  <p>  No.</p>\n\n
+
+<p>9. What is Lifestyle, how is it different from career?</p>\n\n
+  <p>  Lifestyle refers to the personal and social front of a person and career refers to the
+profession of a person.</p>\n\n
+ <p>10. Why do you talk about social responsibility and social empowerment?</p>\n\n
+    <p>Social responsibility gives us a lot of power. If we achieve social empowerment, it
+will be very easy to solve any problem that we may ever face in our lives.</p>\n\n
+
+<p> 11. Does I-Focus mission provide career guidance and does it direct us to suitable and
+available jobs?</p>\n\n
+   <p> I-Focus mission helps you to interact with the working professionals of our mission,
+who possess rich experience and exposure in the industry. They can guide you on the
+right path and inform you about available jobs on every sunday.</p>\n\n
+
+<p> 12. What does I refer to in I-Focus Mission?</p>\n\n
+     <p> The I in the I-Focus mission refers to the path I should take, the things I should
+know, the goals I should achieve and what all I need to know to do something.</p>\n\n
+
+<p>13. Can I-Focus Mission counsel me for my personal life issues?</p>\n\n
+     <p> If you follow and practice our mission principles, you would never ever need
+counseling. Rather, you would be in a position to counsel others.</p>\n\n
+
+<p>14. Are there any political affiliations to the organization?</p>\n\n
+    <p>  We are not politically affiliated to anyone.</p>\n\n
+
+<p>15. What shall we do after 11 days workshop?</p>\n\n
+     <p>  After the 11 days workshop, there will be advanced leadership sessions known as
+Level 1 and then a 2 month long brigadiers workshop.</p>\n\n
+
+<p>16. What is the role of members in I-Focus Mission?</p>\n\n
+      <p>There are many volunteer roles for members in I-Focus. Based on the member’s
+interest and the amount of time he can spare and based on the requirement at the time,
+the roles will be allotted.</p>\n\n
+
+<p> 17. Who are the famous people associated with I-Focus Mission?</p>\n
+   <p>   Many IAS, IPS, business, political, cultural and film personalities/ celebrities
+are associated with our mission. A.K. Goel, P.V.R.K. Prasad, Sirivennala, etc.
+keep giving their valuable inputs to our members.</p>\n\n
+
+<p>18. How can I volunteer in your mission activities?</p>\n
+     <p> You can volunteer in our mission activities by becoming a member.</p>\n\n
+
+<p>19. Can I attend a demo class before joining I-Focus Mission?</p>\n
+    <p>  Our workshops are interactive sessions and we do not have
+any demo sessions.</p>\n\n
+
+<p> 20. I’ve completed my studies and am in search of a job. How can I-Focus mission
+help me in my endeavors?</p>\n\n
+    <p> Joining I-Focus mission will fine tune your ideas and improve your clarity on your
+competencies and observation levels drastically. You can improve and increase your
+skills and gain a job easily and then be the best at what you do.</p>\n\n
+
+ <p>21. What are breakfast meets, super sundays and annual events?</p>\n\n
+     <p> Today our daily ‘routine’ is the reason we are not having any social relations, and
+this is leading to psychological issues. By conducting and participating in the events
+like Breakfast Meets, Super Sundays, Annual Events, etc., a person can socialize with
+others and share his thoughts and ideas in a productive environment. This can in turn
+refresh and energize the individual to be able to deal with his day to day life.</p>\n\n
+
+  <p> 22. I already know myself, my goals and leadership principles. How is I-Focus
+Mission helpful to me?</p>\n\n
+     <p> By joining I-Focus Mission, the other members here  shall get inspired by
+learning about your achievements and goals.</p>\n\n
+
+<p>  23. How many years should one associate with I-Focus Mission to get a desired
+result?</p>\n\n
+     <p> How long a member takes to get a result from associating with the mission is
+based on the competency of the member and practice of our principles.</p>\n\n
+
+<p>24. Can you please explain Passionate Careers and Positive Lifestyles.</p>\n\n
+    <p>  Passionate career is about building a career of our choice which will never tire
+or bore us. Positive lifestyle is the one which gives us the enthusiasm and energy to
+our day to day life and face problems confidently and solve them successfully.</p>\n\n
+            
+            </string>
+       
+        
+         <string name="pldge"> <font size="20">  <b><p>I-PLEDGE</p></b> </font>\n\n
+
+<b>I SHALL FOCUS ON</b> \n\n
+Early-wake up with a plenty of zeal and zest\n\n
+I SHALL FOCUS ON \n\n
+Early-Sleeping with a mind of calm and quiet \n\n
+I SHALL FOCUS ON \n\n
+Passionate Careers and Positive Life-Styles\n\n
+I SHALL FOCUS ON\n\n
+Sensible listening and sincere learning!\n\n
+I SHALL FOCUS ON\n\n
+Sharpening the Aptitude and Fine-tuning the Attitude\n\n
+I SHALL FOCUS ON \n\n
+Decisive Thinking and Decision Making \n\n
+I SHALL FOCUS ON \n\n
+Keeping myself Busy with right priorities \n\n
+I SHALL FOCUS ON \n\n
+Thinking Right and Doing Bright \n\n
+I SHALL FOCUS ON \n\n
+Being Tough to my self and Being Sensible to Others \n\n
+I SHALL FOCUS ON \n\n
+Being Frank to my self and Being Fair to Others \n\n
+I SHALL FOCUS ON  \n\n
+Giving respect first and taking respect next \n\n
+THIS IS ALL WHAT  \n\n
+Manasa…..Vaachaa….Karmanaa…..\n\n
+I Promise!      I FOCUS!     I Practise! \n\n
+ <font size="30"><p>  <b>MISSION  DECLARATION </b> </p> </font>\n\n
+We are the Leaders…!  I-Focus Leaders..!  \n\n
+We have the Life Style..!  Leader’s Life style..!\n\n
+Lovely Life Styles…!    Lively Life Styles…!\n\n
+SMILING FIRST….! WISHING FIRST….! GRETING FIRST….!\n\n
+Righteous Friendships…! Honest Relations…!\n\n
+Horizon to Horizon…!    Dawn to Dusk….!\n\n
+We are the Leaders…!   I-Focus Leaders…!\n\n
+We have the life style…!   Leader’s Life style…!\n\n
+Side by side  or  Miles apart..\n\n
+We All for One  One for All\n\n
+Together we Walk   Together we Talk..\n\n
+  Together we care   Together we Share..\n\n
+Together we Learn Together we Teach..\n\n
+Together we preach   Together we Practise..\n\n
+We are the Leaders..!  I-Focus Leaders..! \n\n
+We have the Life Style..!   Leader’s Life style..!\n\n
+Jumping from Routine..! Daring to Decide..!\n\n
+Doubt-Less starting.. Effective executing…!\n\n
+Pride in Performing… Endurance in Achieving..!\n\n
+Attachment with efforts   Detachment with Results..!\n\n
+We are the Leaders..!    I-Focus Leaders..!\n\n
+We have the Life Style..!   Leader’s Life Style..! \n\n
+Social   Soldiers…! Cultural conscious..!\n\n
+Responsible Citizens…! Positive Patriots..!\n\n
+This is the Vision… This is the Mission..!\n\n
+This is the truth-We ALL  Believe..!\n\n
+This is the Path-We ALL Procced..!\n\n
+Focus on Samardhatha..! Focus on Samagratha..!\n\n
+Unanimous Focus on Bharatheeyatha..!\n\n
+We are the Leaders..!  I-Focus Leaders..!\n\n
+We have the Life Style…!  Leader’s Life Style..!\n\n
+Jai.. Hind.\n\n
+</string>
+        
+         
+           <string name="sanjivani_club"> <font size="25"><p><b> About Sanjiwani Club:</b></p></font>\n\n
+<p><b>Sanjiwani </b> is an endeavour to create more ‘producers’ in the society.  The mission is leveraging its resources to create social entrepreneurs at all possible levels to bring about discovery, exchange of wealth and abundance in the society through the ‘Sanjiwani’ initiative. </p>\n\n
+<p>Today I Focus Mission is uniquely positioned to mentor, motivate, fund and incubate future businesses that can constructively impact the lives of people. Thousands of committed, prospective entrepreneurs are already in the mission as student members who are keen to exhibit their latent talents once given a direction and support. </p>\n\n
+<p>Today, Entrepreneurship is recognised as a key driver of our economy. Wealth creation and employment are possible only by encouraging these ‘producers’ or entrepreneurially minded individuals. Senior members of the mission comprise of highly experienced professionals from almost all industries who are keen to share their talents and expertise. Businessmen and industrialists are part of the mission who are ready to fund some initiatives. Mechanisms are developed in the mission to identify and nurture youth members who are passionate to exercise creative freedoms, higher self esteem, and greater sense of control over their own lives. They are carefully handpicked and put on the high road to entrepreneurship. Already about a dozen mission members have set the ball rolling and aiming to reach higher levels in their businesses.</p>\n\n
+<p>Seminars, workshops, conferences, exchange programmes and research studies are undertaken periodically to ensure progress.</p>\n\n
+<font size="25"><b><p>Club Members:</p></b></font>\n\n
+
+
+<b>SRINIVAS</b>\n
+Violet &amp; Purple,\n
+Industry Sector: Imitation Jewellery \n\n
+
+
+<b>JAGAN MOHAN METLA</b>\n
+Mahaveera Enterprises,\n
+Industry Sector: Laboratory Animals Supplier\n\n
+
+<b>Dr. SIMHA RAJU</b>\n
+Sri Pada Wallabha Clinic,\n
+<b>9553550684</b>\n
+Industry Sector: Ayurveda \n\n
+
+<b>VINOD YADAV</b>\n
+VH Enterprises,\n
+Industry Sector: Pharmacy \n\n
+
+
+<b>SRI HARI</b>\n
+VH Enterprises,\n
+Industry Sector: Pharmacy \n\n
+
+<b>AJAY KUMAR VEDANTAM</b>\n
+Stellent Enterprises,\n
+Industry Sector: Automotive  \n\n
+
+<b>NARAYANA</b>\n
+Keyush Consulting India Pvt. Ltd.,\n
+Service Sector: SAP Implementation &amp; Business Implementation \n\n
+
+<b>SRIKANTH SHARMA</b>\n
+Out Door Advertising\n
+Industry Sector: Advertising &amp; Branding \n\n
+
+<b>MURTHY NAIDU</b>\n
+NastroForex,\n
+Industry Sector: Financial &amp; Wealth management. \n\n
+
+<b>Mrs. PADMA TRIVIKRAM,</b>\n
+RMTS,\n
+Industry Sector: Lifestyle Designer &amp; Counseling Services  \n\n
+
+<b>ACHALANAND A</b>\n
+Arugonda Textiles,\n
+Industry Sector: Textiles  \n\n
+
+<b>SRIDHAR G</b>\n
+Rajaram Garments,\n
+Industry Sector: Textiles \n\n
+
+<b>VISHAL</b>\n
+Dathri Academy, Vijayawada\n
+Industry Sector: CA Trainings \n\n
+
+<b>CMA.C VAJRALINGAM</b>\n
+Vajralingam &amp; Co.Cost Accountants,\n
+Industry Sector: Cost Accountancy \n\n
+
+<b>SHIVA MALLAIAH</b>\n
+Chartered Accountant, \n
+Industry Sector: Chartered Accountancy \n\n
+
+<b>MADHAV</b>\n
+Meghan Power Solutions,\n
+Industry Sector: Batteries &amp; Inverter/UPS Solutions. \n\n
+
+<b>SRIDHAR KANNURI</b>\n
+B Trans Solutions,\n
+Industry Sector: IT Services \n\n
+
+<b>BALA RAJU</b>\n
+Surya Computers,\n
+Industry Sector: Computer Sales &amp; Services \n\n
+
+<b>D VENKAT</b>\n
+Sri Teja Technologies,\n
+Industry Sector: Chemical \n\n
+
+<b>MOHAN REDDY</b>\n
+Stras Structural Systems Pvt Ltd.,\n
+Industry Sector: Construction \n\n
+
+<b>RAVI SHANKAR NANDURI</b>\n
+FinQ Solutions,\n
+Industry Sector: Chartered Accountancy \n\n
+
+<b>Kirshna Kishore</b>\n
+Shadaadan Technologies\n
+Industry Sector: IT Services \n\n
+
+<b>VISHNU VARDHAN G</b>\n
+ProQuest Consultancy Services Pvt Ltd,\n
+Industry Sector: Background Verification &amp; Skill Development \n\n
+
+<b>GANESH DONTHI</b>\n
+MEDO,
+Industry Sector: Entrepreneurship Development &amp; MSME Consultant \n\n
+
+<b>AJAY ABBURI</b>\n
+Samraj Industires,\n
+Industry Sector: Solar &amp; LED Lights \n\n
+
+<b>ARJUN MAJUMDAR</b>\n
+Hari Prahlad Technologies,\n
+Industry Sector: IT Services, Mobile Apps &amp; IoT \n\n
+
+<b>VINAY BHASKER TALLURI</b>\n
+Paanini Ad’ Ventures,\n
+Industry Sector: Advertising &amp; Branding \n\n
+
+<b>JITTENDRRAH</b>\n
+Akshaya Automations,\n
+Industry Sector: Industrial Automation \n\n
+
+<b>SATYANARAYANA</b>\n
+AK’s ZingZing Events,
+Industry Sector: Mimicry &amp; Entertainment \n\n
+
+<b>DEVENDRA VARMA</b>\n
+Suvidhya School,\n
+Industry Sector: Education \n\n
+
+<b>ANJI,</b>\n
+Nigraha,\n
+Service Sector: Physical Fitness &amp; Psychological Wellness \n\n
+
+
+               
+           </string>
+       
+       
+           <string name="succucess"><p>It’s been 3 years that I have been associated with the mission and I can say that this is the best gift I could give myself. IFocus has brought out the best in me and cultivated thoughts that transformed my life altogether.
+Here at the mission I get to learn something from everyone that I meet, be it a student younger than me or a senior officer working at a higher level of an authority in an organization. Coming to my personal life, IFocus has given me the strength to tackle any situation that I may face in life. The mission made me very optimistic and confident and this made my family proud of me. Through the mission I got opportunities to meet elite personalities in person, which helped me elevate my level of thought. Brigadier sessions had brought a paradigm shift in my aptitude and communication. It boosted my abilities in public speaking, through which, my voice was heard by thousands of people over Radio. I even got the once in a lifetime opportunity to host the 9th anniversary of the mission (Jayaprada)</p>\n\n
+<p>I really thank the mission for transforming me from an introvert to an effective contributor to my team and family. I can now say that I am not just merely surviving but living my life to a higher potential every day.</p> 
+               
+           </string>
+           
+           
+        <string name="success1"><p>The level of realization that, I acquired through the mission is not pertained to that of an individual level, but beyond that. I was referred to the mission by my son Vedantam Ritvik Anand who joined. Ever since he has been associated with the mission, I could observe a genuine positive transformation with in him regards to his behavior, level of enthusiasm and his social skills. He turned up to be better organized and I could observe the stability in the relationships within the family. He gained a positive network, guiding him on the right path. He also practised the principles of the mission to create a discipline between his passion of pursuing music and his studies. His responsible behavior delighted me. He stopped wiling away his precious time and I see him constantly work on his skills. This ignited an interest with in me to associate with the mission.</p>
+<p>I joined the Mano Vikas workshop, after the completion of which, I gained the essence of the fact, that the organization promises holistic growth for the people of different age groups and walks of life. The implementation of these principles transformed me from a reactive person to a proactive person. A similar change was seen in my family and there formed a mutual co-operation among the members. The mission helped me acquire a vast network and gave me an opportunity to serve the society. My wife constantly awaits to attend the breakfast meets and super Sundays. I express great gratitude for the mission which is a great asset for the youth of the society.</p>
+
+        </string>
+    <string name="title_activity_home">Update iFocus</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!--   <string name="home_btm">@  2015 iFocus Mission</string> -->
+
+</resources>

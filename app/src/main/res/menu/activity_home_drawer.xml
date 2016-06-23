@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/about" />
+        <item
+            android:id="@+id/nav_pledge"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/pledge" />
+        <item
+            android:id="@+id/nav_structure"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/structure" />
+        <item
+            android:id="@+id/nav_sanjiwani"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/sanjiwani" />
+        <item
+            android:id="@+id/nav_FAQs"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/faqss" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/contact" />
+        <item
+            android:id="@+id/nav_sendEnquiry"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/enquiry" />
+    </group>
+
+</menu>

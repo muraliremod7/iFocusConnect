@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical" >
+
+   
+    
+       <Button
+            android:id="@+id/login_btn_fb"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_above="@+id/text_fb"
+            android:background="@drawable/connectwithfb"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+       
+       
+        <TextView
+            android:id="@+id/text_fb"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:layout_marginBottom="25dp"
+            android:layout_alignParentBottom="true"
+            android:text="Skip and Connect Manually"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    
+
+</RelativeLayout>

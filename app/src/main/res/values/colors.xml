@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#FF8900</color>
+    <color name="colorPrimaryDark">#EB7A00</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+
+    <color name="event_color_01">#59dbe0</color>
+    <color name="event_color_02">#f57f68</color>
+    <color name="event_color_03">#87d288</color>
+    <color name="event_color_04">#f8b552</color>
+    <color name="toolbar">#efefef</color>
+    <color name="toolbar_text">#8f000000</color>
+    <color name="accent">#2789e4</color>
+    
+      <color name="txtclr">#48A1DD</color>
+      <color name="addclickeditclr">#D4D4D4</color>
+      
+      <color name="apointment1_color">#DADADA</color>
+      <color name="apointment2_color">#88BF57</color>
+      
+       <color name="home_red">#ec4c5c</color>    
+       
+       <color name="red">#d9001b</color> 
+       
+        <color name="enq_blue">#044ccc</color> 
+       
+       <color name="abt_bg">#fc3464</color>  
+       
+       <color name="sta_bg">#0031cb</color>
+       
+        <color name="announce">#FF9900</color>
+      
+</resources>

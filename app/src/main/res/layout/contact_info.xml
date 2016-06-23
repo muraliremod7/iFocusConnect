@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"  
+        android:background="@android:color/white"
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content" >
+   
+
+  
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/back_stu" />
+    
+      <TextView
+        android:id="@+id/about_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Contact"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/abt_bg"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+      
+       </RelativeLayout>
+       
+      <View
+            android:id="@+id/veiw"
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="4dp"
+            android:layout_below="@+id/relativeLayout1"
+            android:background="@color/abt_bg"/>
+           
+    
+    
+     <TextView
+            android:id="@+id/txt_contact_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_info"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_below="@+id/veiw"
+            android:textColor="#000000"
+            android:textSize="15sp"
+             />
+    
+    
+    
+
+</RelativeLayout>
+</ScrollView>

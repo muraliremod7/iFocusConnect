@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@android:color/white"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/veiw"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/saperator" />
+
+        <TextView
+            android:id="@+id/ifocus_mission"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text=" i Focus Mission"
+            android:textColor="#0066cc"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/veiwww"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/ifocus_mission"
+            android:background="@drawable/saperator" />
+        
+        
+        
+         <include
+            android:id="@+id/sliding_images"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/veiwww"
+            android:layout_marginTop="30dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            layout="@layout/test" />
+        
+
+        <ImageView
+            android:id="@+id/sliding_images"
+            android:layout_width="fill_parent"
+            android:layout_height="160dp"
+            android:layout_below="@+id/veiwww"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/slide1" /> 
+
+        <Button
+            android:id="@+id/abt_ifocus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sliding_images"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/home_red"
+            android:padding="18dp"
+            android:text="About iFcous"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/announcements"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/abt_ifocus"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:background="#f4a434"
+            android:padding="18dp"
+            android:text="Announcements"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/enquires"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/announcements"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:background="@color/enq_blue"
+            android:padding="18dp"
+            android:text="Enquiries"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+        <View
+            android:id="@+id/veiwwwww"
+            android:layout_width="fill_parent"
+            android:layout_height="6dp"
+            android:layout_below="@+id/enquires"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/saperator" />
+
+        <TextView
+            android:id="@+id/txt_static"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/veiwwwww"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/home_txt"
+            android:textColor="@color/red"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/veiwwwwwwww"
+            android:layout_width="fill_parent"
+            android:layout_height="6dp"
+            android:layout_below="@+id/txt_static"
+            android:background="@drawable/saperator" />
+
+        <TextView
+            android:id="@+id/txt_ifocus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/veiwwwwwwww"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="2015 iFocus Mission"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/gallery_paging"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <com.app.ifocusmission.ExtendedGallery
+            android:id="@+id/mygallery01"
+            android:layout_width="100dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_height="100dp"
+            android:fadingEdge="none"
+            android:spacing="0px" />
+
+        <LinearLayout
+            android:id="@+id/image_count"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+        android:layout_below="@+id/mygallery01"
+            android:background="#00000000"
+            android:gravity="center"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@color/announce"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+  <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:id="@+id/about_us"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="Announcements"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/veiw"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/white" />
+        
+           <Button
+            android:id="@+id/alert"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:text="Alerts"
+            android:layout_marginBottom="4dp"
+            android:paddingRight="15dp"
+            android:padding="20dp"
+            android:drawableRight="@drawable/next_ann"
+            android:textColor="@color/announce"
+            android:layout_below="@+id/veiw"
+            android:layout_marginTop="80dp"
+            android:textSize="18dp"
+            android:background="@android:color/white"
+             />
+           
+            <Button
+            android:id="@+id/suc_stores"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_below="@+id/alert"
+            android:text="Success Stories"
+            android:textSize="18dp"
+            android:padding="20dp"
+            android:drawableRight="@drawable/next_ann"
+            android:paddingRight="15dp"
+            android:textColor="@color/announce"
+            android:background="@android:color/white"
+             />
+            
+            
+            <Button
+            android:id="@+id/event_updates"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="4dp"
+            android:paddingRight="15dp"
+            android:drawableRight="@drawable/next_ann"
+            android:layout_below="@+id/suc_stores"
+            android:text="Event Updates"
+            android:textSize="18dp"
+            android:padding="20dp"
+            android:textColor="@color/announce"
+            android:background="@android:color/white"
+             />
+            
+            
+            
+             <ImageView
+            android:id="@+id/image_ann"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/event_updates"
+            android:textSize="18dp"
+            android:textColor="@color/announce"
+            android:background="@drawable/announce"
+             />
+    
+    
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativeLayout111"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+<RelativeLayout  
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:background="#f4a434"
+        android:layout_height="45dp" >
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:id="@+id/about_us"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="Success Stories"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    
+    
+ </RelativeLayout>
+   
+    <WebView 
+   android:id="@+id/webview"
+   android:layout_below="@+id/relativeLayout1"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+/>
+   
+    </RelativeLayout>
+  
