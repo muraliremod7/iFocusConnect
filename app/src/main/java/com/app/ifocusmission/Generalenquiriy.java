@@ -7,6 +7,10 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -16,8 +20,8 @@ import android.widget.Toast;
 
 import com.app.ifcousmission.R;
 
-public class Generalenquiriy extends Activity{
-	
+public class Generalenquiriy extends AppCompatActivity{
+	Toolbar toolbar;
 	Button submit;
 	EditText edt_name_general,edt_mbl_general,edt_email_general,edt_equry_general;
 	
@@ -29,23 +33,16 @@ public class Generalenquiriy extends Activity{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.general_enq);
 		submit=(Button)findViewById(R.id.submit);
-		
+		toolbar = (Toolbar)findViewById(R.id.enquirytoolbar);
+		setSupportActionBar(toolbar);
+		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+		getSupportActionBar().setTitle("Enquiry");
 		edt_name_general=(EditText)findViewById(R.id.edt_name_general);
 		edt_mbl_general=(EditText)findViewById(R.id.edt_mbl_general);
 		edt_email_general=(EditText)findViewById(R.id.edt_email_general);
 		edt_equry_general=(EditText)findViewById(R.id.edt_equry_general);
-		ImageView btn_back=(ImageView)findViewById(R.id.btn_back);
-		btn_back.setOnClickListener(new OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				finish();
-			}
-		});
-		
-		
-submit.setOnClickListener(new OnClickListener() {
+
+		submit.setOnClickListener(new OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
@@ -70,7 +67,7 @@ submit.setOnClickListener(new OnClickListener() {
 		
 		
 		
-if(name_general.contains(" ")||mbl_general.contains(" ") ||query_general.contains(" ") ||email_general.contains(" ")){
+		if(name_general.contains(" ")||mbl_general.contains(" ") ||query_general.contains(" ") ||email_general.contains(" ")){
 			
 			//Toast.makeText(getApplicationContext(), "Please enter valid credentionals", Toast.LENGTH_SHORT).show();
 		
@@ -155,15 +152,31 @@ if(name_general.contains(" ")||mbl_general.contains(" ") ||query_general.contain
 
 
 	  public static boolean isEmailValid(String email) { 
-    boolean isValid = false;
-    String expression = "^[\\w\\.-]+@([\\w\\-]+\\.)+[A-Z]{2,4}$";
-    CharSequence inputStr = email;
-    Pattern pattern = Pattern.compile(expression, Pattern.CASE_INSENSITIVE);
-    Matcher matcher = pattern.matcher(inputStr);
-    if (matcher.matches()) {
-           isValid = true;
-    }
-    return isValid;
+		boolean isValid = false;
+		String expression = "^[\\w\\.-]+@([\\w\\-]+\\.)+[A-Z]{2,4}$";
+		CharSequence inputStr = email;
+		Pattern pattern = Pattern.compile(expression, Pattern.CASE_INSENSITIVE);
+		Matcher matcher = pattern.matcher(inputStr);
+		if (matcher.matches()) {
+			   isValid = true;
+		}
+		return isValid;
 }
 
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		getMenuInflater().inflate(R.menu.menu,menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()){
+			case android.R.id.home:
+				finish();
+
+			default:
+		}
+		return super.onOptionsItemSelected(item);
+	}
 }

@@ -1,63 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@android:color/white"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:id="@+id/view3">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/faqtoolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </android.support.design.widget.AppBarLayout>
     
-     <RelativeLayout
-        android:id="@+id/relativeLayout1"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content" >
+     <ScrollView  android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_below="@+id/view3">
+         <TextView
+             android:id="@+id/txt_faq_info"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/faq"
+             android:padding="10dp"
+             android:gravity="center|left"
+             android:textColor="#007DE0"
+             android:textSize="15sp"
+             android:layout_below="@+id/view3"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentStart="true" />
+     </ScrollView>
 
-        <ImageView
-            android:id="@+id/btn_back"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_alignParentLeft="true"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/back_stu" />
 
-        <TextView
-            android:id="@+id/about_us"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:layout_marginTop="10dp"
-            android:gravity="center_horizontal"
-            android:text="FAQ"
-            android:textColor="@color/abt_bg"
-            android:textSize="24sp"
-            android:textStyle="bold" />
-    </RelativeLayout>
 
-    <View
-        android:id="@+id/veiw"
-        android:layout_width="fill_parent"
-        android:layout_height="3dp"
-        android:layout_below="@+id/relativeLayout1"
-        android:layout_marginTop="4dp"
-        android:background="@color/abt_bg" />
-    
-     <ScrollView  android:layout_width="fill_parent"   android:layout_below="@+id/veiw"
-            android:layout_height="fill_parent" > 
-    
-    
-    
-    
-    <TextView
-            android:id="@+id/txt_faq_info"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/faq"
-            android:padding="10dp"
-            android:layout_marginLeft="6dp"
-            android:layout_marginTop="10dp"
-            android:gravity="center|left"
-            android:textColor="#000000"
-            android:textSize="15sp"
-             />
-    </ScrollView>
-    
 
 </RelativeLayout>
