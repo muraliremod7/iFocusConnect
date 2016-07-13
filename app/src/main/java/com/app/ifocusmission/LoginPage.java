@@ -27,7 +27,7 @@ public class LoginPage extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 
-				Intent i = new Intent(getApplicationContext(), Homepage.class);
+				Intent i = new Intent(getApplicationContext(), HomeActivity.class);
 				startActivity(i);
 			}
 		});

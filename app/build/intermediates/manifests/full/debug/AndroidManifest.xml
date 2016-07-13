@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.app.ifcousmission"
-    android:versionCode="5"
-    android:versionName="1.3" >
+    android:versionCode="2"
+    android:versionName="2.0" >
 
     <uses-sdk
         android:minSdkVersion="15"
@@ -38,31 +38,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.app.ifocusmission.Homepage"
-            android:configChanges="orientation|screenSize|keyboardHidden"
-            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" />
-        <activity
-            android:name="com.app.ifocusmission.AboutPage"
-            android:configChanges="orientation|screenSize|keyboardHidden"
-            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" />
-        <activity
-            android:name="com.app.ifocusmission.TestingAppNavigation"
-            android:configChanges="orientation|screenSize|keyboardHidden"
-            android:windowSoftInputMode="adjustPan" />
-        <activity
             android:name="com.app.ifocusmission.Registration_class"
-            android:configChanges="orientation|screenSize|keyboardHidden"
-            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" />
-        <activity
-            android:name="com.app.ifocusmission.Event_Updates"
-            android:configChanges="orientation|screenSize|keyboardHidden"
-            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" />
-        <activity
-            android:name="com.app.ifocusmission.event_update_innerpage2"
-            android:configChanges="orientation|screenSize|keyboardHidden"
-            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" />
-        <activity
-            android:name="com.app.ifocusmission.events_updates_innerpage"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" />
 
@@ -103,14 +79,6 @@
             android:name="com.app.ifocusmission.Webview_events_update"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name="com.app.ifocusmission.Success_stores"
-            android:configChanges="orientation|screenSize|keyboardHidden"
-            android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name="com.app.ifocusmission.Mission_Vision"
-            android:configChanges="orientation|screenSize|keyboardHidden"
-            android:windowSoftInputMode="adjustPan" />
 
         <receiver
             android:name="com.app.ifocusmission.GcmBroadcastReceiver"
@@ -129,22 +97,6 @@
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name="com.app.ifocusmission.Success_stores_innerpage"
-            android:configChanges="orientation|screenSize|keyboardHidden"
-            android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name="com.app.ifocusmission.Success_stores_innerpage2"
-            android:configChanges="orientation|screenSize|keyboardHidden"
-            android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name="com.app.ifocusmission.Enquries_activity"
-            android:configChanges="orientation|screenSize|keyboardHidden"
-            android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name="com.app.ifocusmission.Business_enquiriy"
-            android:configChanges="orientation|screenSize|keyboardHidden"
-            android:windowSoftInputMode="adjustPan" />
-        <activity
             android:name="com.app.ifocusmission.Generalenquiriy"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:windowSoftInputMode="adjustPan" />
@@ -154,8 +106,9 @@
             android:windowSoftInputMode="adjustPan" />
         <activity
             android:name="com.app.ifocusmission.HomeActivity"
-            android:label="@string/title_activity_home" >
-        </activity>
+            android:label="@string/title_activity_home" />
+        <activity android:name="com.app.ifocusmission.BookEventPassess" />
+        <activity android:name="com.app.ifocusmission.ContributeiFund" />
 
         <meta-data
             android:name="com.google.android.gms.version"

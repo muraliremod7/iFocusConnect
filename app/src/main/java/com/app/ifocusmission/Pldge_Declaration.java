@@ -8,6 +8,7 @@ import android.view.MenuItem;
 
 import com.app.ifcousmission.R;
 
+
 public class Pldge_Declaration  extends AppCompatActivity{
 	Toolbar toolbar;
 	@Override
@@ -23,7 +24,7 @@ public class Pldge_Declaration  extends AppCompatActivity{
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.menu, menu);
+		getMenuInflater().inflate(R.menu.home, menu);
 		return true;
 	}
 

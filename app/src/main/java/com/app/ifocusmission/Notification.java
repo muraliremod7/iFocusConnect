@@ -23,7 +23,7 @@ public class Notification extends Activity {
 		alert=(Button)findViewById(R.id.alert);
 		suc_stores=(Button)findViewById(R.id.suc_stores);
 		
-		event_update=(Button)findViewById(R.id.event_updates);
+		event_update =(Button)findViewById(R.id.event_updates);
 		
 		ImageView btn_back=(ImageView)findViewById(R.id.btn_back);
 		btn_back.setOnClickListener(new OnClickListener() {

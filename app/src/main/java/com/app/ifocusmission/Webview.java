@@ -11,10 +11,7 @@ import android.widget.ImageView;
 import com.app.ifcousmission.R;
 
 public class Webview extends Activity {
-	
 
-
-	   
 	   private WebView wv1;
 	   
 	   String url_about="http://ifocusmission.net/SocialProject/api/success_stories/0";
